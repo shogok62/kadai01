@@ -1,0 +1,349 @@
+/* ここから下に記載していく */
+
+html { 
+    font-size: 16px;
+}
+
+body {
+    color: #333333;
+    font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+    font-size: 16px;
+    width: 1200px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;  
+}
+
+.text-center{
+    text-align: center;
+}
+
+.ja-title {
+    font-size: 18px;
+}
+
+.en-title {
+    font-size: 24px;
+    font-style: bold;
+    text-transform: uppercase;
+}
+
+.y-title {
+    color: #ffd614;
+}
+
+/* -------------------
+    header
+------------------ */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    font-size: 21px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 0 0 50px;
+    font-size: 21px;
+}
+
+.nav-item>a{
+    color: black;
+    text-transform: uppercase;
+}
+
+.academy {
+    position: relative;
+    margin: auto;
+}
+
+.header-title {
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* -------------------
+    cheese-image
+------------------ */
+
+.cheese-image{
+    position: relative;
+}
+
+.cheese-image__text__1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-100%,0);
+    /* トランスフォーム：位置左右、位置上下、奥行 */
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin: 0 0 30px;
+    letter-spacing: 0.1em;
+    /* 文字間　emはその文字の大きさの何倍の大きさの余白を入れるか */
+}
+
+.cheese-image__text__2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, +100%,0);
+    /* トランスフォーム：位置左右、位置上下、奥行 */
+    color: #fff;
+    font-size: 1.4rem;
+    letter-spacing: 0.1em;
+}
+
+
+/* -------------------
+    about
+------------------ */
+
+.profile {
+    padding: 60px 0 0;
+}
+
+.profile-wrapper {
+    width: 560px;
+    margin: auto;
+}
+
+.about-title1{
+    margin: 0 0 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.about-title2{
+    margin: 0 0 60px;    
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.a1 {
+    margin: 0 0 20px;   
+    flex-wrap: wrap;
+}
+
+.a2 {
+    margin: 0 0 40px;
+    flex-wrap: wrap;
+}
+
+.a3 {
+    margin: 0 0 40px;
+    flex-wrap: wrap;
+}
+
+.a4 {
+    margin: 0 0 80px;
+    flex-wrap: wrap;
+}
+
+.about__images {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: 0 0 60px;
+}
+
+
+/* -------------------
+    course
+------------------ */
+
+.c-title {
+    margin: 0 0 30px;
+}
+
+.c-ov {
+    margin: 0 0 60px;
+    flex-wrap: wrap;
+}
+
+.course-main {
+    background-color: #fafafa;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-title {
+    font-weight: bold;
+    margin: 120px 0 40px;
+}
+
+.c-contents {
+    margin-left: 50px;
+    width: 480px;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+
+
+/* -------------------
+    News
+------------------ */
+
+.n-title {
+    margin: 60px 0 30px;
+}
+
+.btn {
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding: 21px 0;
+    background-color: #ffd514;
+    color: #fff;
+    border: #cacaca;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.btn:hover {
+    background-color: #cacaca;
+    color: #ffd514;
+}
+
+.news__pizza {
+    margin: 60px 0 30px;
+}
+
+.n-1 {
+    margin: 0 0 24px;
+    text-align: left;
+}
+
+.n-2 {
+    margin: 0 0 60px;
+    text-align: left;
+    line-height: 2;
+    font-size: 13px;
+}
+
+.news__list {
+    display: flex;
+    justify-content: center;
+}
+
+.news__item {
+    width: 300px;
+}
+
+.space {
+    margin: 0 30px 0 0;
+}
+
+
+
+
+
+
+/* -------------------
+    Access
+------------------ */
+.access1 {
+    background-color: #fafafa;
+    margin: 60px 0 0;
+
+}
+.access2 {
+    margin: 30px 0 60px;
+}
+
+.map {
+    width: 100%;
+    padding: 0 0 60px;
+}
+
+.a-contents {
+    text-align: center;
+
+}
+
+table {
+    width: 60%;
+    table-layout: fixed;
+    margin: 0 0 60px;
+}
+
+table tr {
+    padding: 8px 0 0 0 ;
+}
+
+table td {
+    padding: 20px;
+    text-align: left;
+}
+
+label {
+    margin: 0 0 8px;
+}
+
+
+
+
+
+
+/* -------------------
+    contact
+------------------ */
+
+
+.contact-title {
+    margin: 60px 0 30px;
+
+}
+
+.con-title {
+    margin: 0s 0 60px;
+}
+
+.con-1 {
+    margin: 0 0 30px;
+}
+
+.con-2 {
+    margin: 0 0 70px;
+}
+
+
+
+
+/* -------------------
+    footer
+------------------ */
+
+.footer {
+    background-color: #707070;
+    padding: 30px 0;
+    margin: 140px 0 0;
+}
+.footer-1 {
+    color: #fff;
+}
+
+
+
+
+/* 質問：行間はline-heightのはずだが、、 */
